@@ -1,0 +1,130 @@
+/* background color  */
+body{
+  background: blue;
+}
+/* font */
+h4{
+  font: 1em sans-serif;
+  break-after: left;
+  border-block-end-style: dotted;
+}
+ 
+/* images */
+#image{
+  float: auto;
+}
+
+/* heading */
+#heading {
+  width: 250px;
+  height: 50px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: center;
+  color: white;
+  background-color: chocolate;
+  margin-left: 5rem;
+}
+/* box rule */
+#crytal-rule {
+  width: 400px;
+  height: 300px;
+  padding: 4px;
+  margin-bottom: 10px;
+  color: hsl(249, 100%, 25%);
+  background-color: rgb(27, 178, 238);
+  break-after: page;
+   /* margin-left: 5rem;  */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* box scores randome */
+#result {
+  width: 140px;
+  height: 70px;
+  padding: 4px;
+  text-align: center;
+  border: blue;
+  font-size: 3vw;
+  color: red;
+  background-color: rgb(238, 142, 214);
+}
+/*  box wins or looses */
+#win, #looses {
+  height: 70px;
+  width: 125px;
+  padding: 4px;
+  text-align: center;
+  color: rgb(18, 5, 75);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: rgb(200, 255, 0);
+}
+/*  box total scores */
+#score-adding {
+  width: 210px;
+  height: 100px;
+  padding: 4px;
+  text-align: center;
+  color: #da1111;
+  background-color: rgb(30, 230, 23);
+}
+/*  box finnal scores */
+#score-result {
+  width: 210px;
+  padding: 4px;
+  margin-bottom: 10px;
+  color: #da1111;
+  background-color: rgb(30, 230, 23);
+}
+.crystals{
+  display: flex;
+  justify-content:space-around;
+  border:1px solid red;
+  align-items: center;
+}
+.crystal{
+  border:1px solid green;
+  justify-content: space-around;
+  transition: box-shadow 2s;
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+
+}
+/* 4 crytals style */
+#crystal1, #crystal2, #crystal3, #crystal4, :hover{
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 2s;
+  cursor: pointer;
+  /* transform: translate(5px, 5px); */
+}
+/* crystal button */
+.crystal-button{
+
+  padding: 50px;
+}
+/* crystal images style */
+.crystal-image{
+  height: 100px;
+width: 100px;
+}
+/* scrystal box scores */
+#crystal-row{
+  margin-bottom: 15px;
+}
